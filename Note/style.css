@@ -1,0 +1,100 @@
+body{
+	background-color: #e5e5e5;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container{
+	width: 70%;
+	margin: auto;
+}
+
+.header{
+	background-color: #635E5E;
+	padding: 20px;
+	border-radius: 10px 10px 10px 10px;
+}
+.header p{
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+.aside section:hover {
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.aside{
+	font-family: Helvetica, Arial, sans-serif;
+	float: left;
+	background-color: #ededed;
+	width: 35%;
+}
+
+.aside p{
+	padding: 4px 4px 2px 10px;
+	text-align: left;
+	font-size: 1.2em;
+}
+.aside p span{
+	font-size: 0.8em;
+}
+
+.content{
+	float: right;
+	width: 65%;
+}
+
+.form{
+	background-color: #fff;
+	height: 700px;
+}
+
+.text-area{
+	height: inherit;
+	width: 75%;
+	margin: auto;
+}
+
+
+.text-area textarea {
+	height: 580px;
+	width: 100%;
+	margin-top: 20px;
+	resize: none;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.input-tab{
+	
+}
+
+.input-tab input{
+	width: 180px;
+	border-bottom: 2px dashed #000;
+	padding: 5px 3px 2px 3px;
+	font-size: 1.2em;
+	border-style: none none dashed none;
+	margin: 15px 5px 15px 75px;
+	text-align: left;
+}
+
+.submit{
+	float: right;
+	margin-top: -40px;
+}
+
+.submit-button{
+	padding: 8px 18px 8px 18px;
+	text-align: center;
+	border-radius: 12px;
+	font-size: 1.2em;
+}
+
+.submit-button:hover{
+	cursor: pointer;
+	box-shadow: 2px 2px 4px 5px #fff;
+	color: #fff;
+	background-color: #000;
+}
